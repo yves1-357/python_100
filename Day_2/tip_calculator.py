@@ -5,4 +5,4 @@ split = int(input("How many people split the bill: "))
 
 pay = bill * (1 + tip/100)
 pay_person = pay / split
-print(f"Each person should pay : {round(pay_person)}")
+print(f"Each person should pay : {round(pay_person, 2)}")
