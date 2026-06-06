@@ -1,7 +1,7 @@
 import smtplib
 
 my_email = "yveskwizera31@yahoo.com"
-password = "VCrUHBfQbenyP4"
+password = "VfQbP4"
 connection = smtplib.SMTP("smtp.yahoo.com")
 connection.starttls
 connection.login(user=my_email, password=password)
